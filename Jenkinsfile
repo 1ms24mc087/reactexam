@@ -1,7 +1,7 @@
 pipeline{
   agent any
 
-  environments{
+  environment{
     DOCKERHUB_CRED=credentials('dockerhub')
     IMAGE_NAME="rohit2686/reactexam"
   }
