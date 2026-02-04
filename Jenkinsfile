@@ -8,7 +8,7 @@ pipeline{
   stages{
     stage('Branch Checkout'){
       steps{
-        git url:"https://github.com/1ms24mc087/reactexam.git",branch: "master"
+        git url:"https://github.com/1ms24mc087/reactexam",branch: "master"
       }
     }
 
